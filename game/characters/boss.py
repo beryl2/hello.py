@@ -83,10 +83,13 @@ else:
      print(string + 'ing')
 
 
-n1 =[ ]
+x =[ ]
 for x in range (1499, 2701):
-     n1.append(int(x))
-print(n1)
+     if ((x%5==0) and (x%7==0)):
+          print("",x)
+
+          
+print()
 
 #python program to revese a number
 n = 35231
